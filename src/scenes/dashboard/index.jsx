@@ -21,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header title="DASHBOARD" subtitle="Welcome to your electricity dashboard" />
 
         <Box>
           <Button
@@ -55,10 +55,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="Emails Sent"
-            progress="0.75"
-            increase="+14%"
+            title="14"
+            subtitle="Days"
+            progress="0.25"
+            increase="+0%"
             icon={
               <EmailIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -74,10 +74,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Sales Obtained"
+            title="28"
+            subtitle="Readings Obtained"
             progress="0.50"
-            increase="+21%"
+            increase="+0%"
             icon={
               <PointOfSaleIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -93,10 +93,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Clients"
-            progress="0.30"
-            increase="+5%"
+            title="1"
+            subtitle="Data Collectors"
+            progress="0.75"
+            increase="+0%"
             icon={
               <PersonAddIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -112,10 +112,10 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
-            subtitle="Traffic Received"
-            progress="0.80"
-            increase="+43%"
+            title="303.73"
+            subtitle="Total Units"
+            progress="1"
+            increase="+0%"
             icon={
               <TrafficIcon
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -143,14 +143,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Revenue Generated
+                Electricity Total
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                $59,342.32
+                303.73
               </Typography>
             </Box>
             <Box>
@@ -210,7 +210,7 @@ const Dashboard = () => {
                 p="5px 10px"
                 borderRadius="4px"
               >
-                ${transaction.cost}
+                {transaction.cost}
               </Box>
             </Box>
           ))}

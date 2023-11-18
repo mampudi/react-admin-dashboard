@@ -268,22 +268,22 @@ export const mockDataInvoices = [
 
 export const mockTransactions = [
   {
-    txId: "01e4dsa",
-    user: "johndoe",
-    date: "2021-09-01",
-    cost: "43.95",
+    txId: "Saturday",
+    user: "Mapudi",
+    date: "2023-11-18",
+    cost: "303.73",
   },
   {
-    txId: "0315dsaa",
-    user: "jackdower",
-    date: "2022-04-01",
-    cost: "133.45",
+    txId: "Sunday",
+    user: "Mampudi",
+    date: "2023-11-19",
+    cost: "287.60",
   },
   {
-    txId: "01e4dsa",
-    user: "aberdohnny",
-    date: "2021-09-01",
-    cost: "43.95",
+    txId: "Monday",
+    user: "Mampudi",
+    date: "2023-11-20",
+    cost: "260.00",
   },
   {
     txId: "51034szv",
@@ -430,169 +430,76 @@ export const mockPieData = [
   },
 ];
 
+
+
 export const mockLineData = [
   {
-    id: "japan",
-    color: tokens("dark").greenAccent[500],
+    id: "Daily Usage",
+    color: tokens("dark").greenAccent[300],
     data: [
       {
-        x: "plane",
-        y: 101,
+        x: "start",
+        y: 0,
       },
       {
-        x: "helicopter",
-        y: 75,
+        x: "Saturday, 11/18/23",
+        y: 14.69,
       },
       {
-        x: "boat",
-        y: 36,
+        x: "Sunday, 11/19/23",
+        y: 17.69,
       },
       {
-        x: "train",
-        y: 216,
+        x: "Monday, 11/20/23",
+        y: 10,
       },
       {
-        x: "subway",
-        y: 35,
+        x: "Tuesday, 11/21/23",
+        y: 10,
       },
       {
-        x: "bus",
-        y: 236,
+        x: "Wednesday, 11/22/23",
+        y: 10,
       },
       {
-        x: "car",
-        y: 88,
+        x: "Thursday, 11/23/23",
+        y: 10,
       },
       {
-        x: "moto",
-        y: 232,
+        x: "Friday, 11/24/23",
+        y: 10,
       },
       {
-        x: "bicycle",
-        y: 281,
+        x: "Saturday, 11/25/23",
+        y: 10,
       },
       {
-        x: "horse",
-        y: 1,
+        x: "Sunday, 11/26/23",
+        y: 10,
       },
       {
-        x: "skateboard",
-        y: 35,
+        x: "Monday, 11/27/23",
+        y: 10,
       },
       {
-        x: "others",
-        y: 14,
+        x: "Tuesday, 11/28/23",
+        y: 10,
+      },
+      {
+        x: "Wednesday, 11/29/23",
+        y: 10,
+      },
+      {
+        x: "Thursday, 11/30/23",
+        y: 10,
+      },
+      {
+        x: "Friday, 12/1/23",
+        y: 10,
       },
     ],
   },
-  {
-    id: "france",
-    color: tokens("dark").blueAccent[300],
-    data: [
-      {
-        x: "plane",
-        y: 212,
-      },
-      {
-        x: "helicopter",
-        y: 190,
-      },
-      {
-        x: "boat",
-        y: 270,
-      },
-      {
-        x: "train",
-        y: 9,
-      },
-      {
-        x: "subway",
-        y: 75,
-      },
-      {
-        x: "bus",
-        y: 175,
-      },
-      {
-        x: "car",
-        y: 33,
-      },
-      {
-        x: "moto",
-        y: 189,
-      },
-      {
-        x: "bicycle",
-        y: 97,
-      },
-      {
-        x: "horse",
-        y: 87,
-      },
-      {
-        x: "skateboard",
-        y: 299,
-      },
-      {
-        x: "others",
-        y: 251,
-      },
-    ],
-  },
-  {
-    id: "us",
-    color: tokens("dark").redAccent[200],
-    data: [
-      {
-        x: "plane",
-        y: 191,
-      },
-      {
-        x: "helicopter",
-        y: 136,
-      },
-      {
-        x: "boat",
-        y: 91,
-      },
-      {
-        x: "train",
-        y: 190,
-      },
-      {
-        x: "subway",
-        y: 211,
-      },
-      {
-        x: "bus",
-        y: 152,
-      },
-      {
-        x: "car",
-        y: 189,
-      },
-      {
-        x: "moto",
-        y: 152,
-      },
-      {
-        x: "bicycle",
-        y: 8,
-      },
-      {
-        x: "horse",
-        y: 197,
-      },
-      {
-        x: "skateboard",
-        y: 107,
-      },
-      {
-        x: "others",
-        y: 170,
-      },
-    ],
-  },
+
 ];
 
 export const mockGeographyData = [

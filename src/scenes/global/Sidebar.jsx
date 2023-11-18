@@ -80,7 +80,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  Power
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -107,10 +107,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Kgang Moloke
+                  Mampudi
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Admin
                 </Typography>
               </Box>
             </Box>
@@ -205,7 +205,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Line Chart"
+              title="Usage"
               to="/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}

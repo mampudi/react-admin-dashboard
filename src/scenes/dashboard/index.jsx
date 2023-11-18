@@ -94,7 +94,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="1"
-            subtitle="Data Collectors"
+            subtitle="Data Collector"
             progress="0.75"
             increase="+0%"
             icon={

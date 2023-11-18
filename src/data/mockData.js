@@ -268,21 +268,21 @@ export const mockDataInvoices = [
 
 export const mockTransactions = [
   {
-    txId: "Saturday",
+    txId: "Friday",
     user: "Mampudi",
-    date: "2023-11-18",
+    date: "2023-11-17",
     cost: "303.73",
   },
   {
     txId: "Sunday",
     user: "Mampudi",
-    date: "2023-11-19",
+    date: "2023-11-18",
     cost: "287.60",
   },
   {
     txId: "Monday",
     user: "Mampudi",
-    date: "2023-11-20",
+    date: "2023-11-19",
     cost: "260.00",
   },
   {
@@ -442,59 +442,59 @@ export const mockLineData = [
         y: 0,
       },
       {
-        x: "Saturday, 11/18/23",
+        x: "Fri, 11/17/23",
         y: 14.69,
       },
       {
-        x: "Sunday, 11/19/23",
+        x: "Sat, 11/18/23",
         y: 17.69,
       },
       {
-        x: "Monday, 11/20/23",
+        x: "Sun, 11/19/23",
         y: 10,
       },
       {
-        x: "Tuesday, 11/21/23",
+        x: "Mon, 11/20/23",
         y: 10,
       },
       {
-        x: "Wednesday, 11/22/23",
+        x: "Tues, 11/21/23",
         y: 10,
       },
       {
-        x: "Thursday, 11/23/23",
+        x: "Wed, 11/22/23",
         y: 10,
       },
       {
-        x: "Friday, 11/24/23",
+        x: "Thurs, 11/23/23",
         y: 10,
       },
       {
-        x: "Saturday, 11/25/23",
+        x: "Fri, 11/24/23",
         y: 10,
       },
       {
-        x: "Sunday, 11/26/23",
+        x: "Sat, 11/25/23",
         y: 10,
       },
       {
-        x: "Monday, 11/27/23",
+        x: "Sun, 11/26/23",
         y: 10,
       },
       {
-        x: "Tuesday, 11/28/23",
+        x: "Mon, 11/27/23",
         y: 10,
       },
       {
-        x: "Wednesday, 11/29/23",
+        x: "Tues, 11/28/23",
         y: 10,
       },
       {
-        x: "Thursday, 11/30/23",
+        x: "Wed, 11/29/23",
         y: 10,
       },
       {
-        x: "Friday, 12/1/23",
+        x: "Thurs, 11/30/23",
         y: 10,
       },
     ],

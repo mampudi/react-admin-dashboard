@@ -39,8 +39,8 @@ const BarChart = ({ isDashboard = false }) => {
           },
         },
       }}
-      keys={[ "Left", "Day", "Consuption"]}
-      indexBy="country"
+      keys={[ "Total", "Consumption"]}
+      indexBy="Day"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}

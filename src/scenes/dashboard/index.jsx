@@ -21,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your electricity dashboard" />
+        <Header title="Control Centre" subtitle="Welcome to your electricity dashboard" />
 
         <Box>
           <Button
@@ -143,14 +143,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-                Electricity Total
+                Current Electricity Reading
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                303.73
+                268.95
               </Typography>
             </Box>
             <Box>

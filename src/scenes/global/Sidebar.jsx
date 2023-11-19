@@ -124,47 +124,10 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Data
-            </Typography>
             <Item
-              title="Manage Team"
-              to="/team"
-              icon={<PeopleOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Contacts Information"
-              to="/contacts"
-              icon={<ContactsOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Invoices Balances"
+              title="Invoices"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Pages
-            </Typography>
-            <Item
-              title="Profile Form"
-              to="/form"
-              icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -188,24 +151,24 @@ const Sidebar = () => {
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
-              Charts
+              Trackers
             </Typography>
             <Item
-              title="Bar Chart"
+              title="Day 0"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Pie Chart"
+              title="Units vs Used"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Usage"
+              title="Daily Usage"
               to="/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}

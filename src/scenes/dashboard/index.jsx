@@ -21,7 +21,8 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="Control Centre" subtitle="Welcome to your electricity dashboard" />
+        <Header title="Control Centre" subtitle="
+        Star Trek empowers users to track their electricity usage, gain valuable insights, and make informed decisions for a sustainable future, reducing their carbon footprint for future generations." />
 
         <Box>
           <Button

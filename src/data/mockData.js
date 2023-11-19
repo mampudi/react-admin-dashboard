@@ -324,7 +324,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(229, 70%, 50%)",
     Total: 289.4,
     burgerColor: "hsl(296, 70%, 50%)",
-    Consumption: 14.69,
+    Usage: 14.69,
     kebabColor: "hsl(97, 70%, 50%)",
   },
   {
@@ -333,7 +333,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(307, 70%, 50%)",
     Total: 269.32,
     burgerColor: "hsl(111, 70%, 50%)",
-    Consumption: 18.25,
+    Usage: 18.25,
     kebabColor: "hsl(273, 70%, 50%)",
   },
   {
@@ -342,7 +342,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(72, 70%, 50%)",
     Total: 265,
     burgerColor: "hsl(96, 70%, 50%)",
-    Consumption: 3.95,
+    Usage: 3.95,
     kebabColor: "hsl(106, 70%, 50%)",
   },
   {
@@ -351,7 +351,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 230,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -360,7 +360,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 220,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -369,7 +369,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 190,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -378,7 +378,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 170,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -387,7 +387,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 150,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -396,7 +396,7 @@ export const mockBarData = [
     "hot dogColor": "hsl(257, 70%, 50%)",
     Total: 130,
     burgerColor: "hsl(326, 70%, 50%)",
-    Consumption: 10,
+    Usage: 10,
     kebabColor: "hsl(110, 70%, 50%)",
   },
 ];

@@ -151,7 +151,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                254.55
+                243.96
               </Typography>
             </Box>
             <Box>

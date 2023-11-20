@@ -282,7 +282,7 @@ export const mockBarData = [
   },
   {
     Day: "Sun, 11-19",
-    "Morning": 268.95,
+    "Morning": 252.80,
     "hot dogColor": "hsl(72, 70%, 50%)",
     Total: 254.55,
     burgerColor: "hsl(96, 70%, 50%)",
@@ -291,11 +291,11 @@ export const mockBarData = [
   },
   {
     Day: "Mon, 11-20-23",
-    "Morning": 240,
+    "Morning": 243.96,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 225,
+    Total: 243.96,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 15,
+    Usage: 8.84,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -400,7 +400,7 @@ export const mockPieData = [
   {
     id: "Used",
     label: "Used",
-    value: 47.34,
+    value: 59.77,
     color: "hsl(162, 70%, 50%)",
   },
 ];
@@ -430,7 +430,7 @@ export const mockLineData = [
       },
       {
         x: "Mon, 11/20/23",
-        y: 1.73,
+        y: 8.84,
       },
       {
         x: "Tues, 11/21/23",

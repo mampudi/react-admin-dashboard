@@ -230,34 +230,16 @@ export const mockTransactions = [
     cost: "254.55",
   },
   {
-    txId: "51034szv",
-    user: "goodmanave",
-    date: "2022-11-05",
-    cost: "200.95",
+    txId: "Monday",
+    user: "Mampudi",
+    date: "2023-1120",
+    cost: "243.96",
   },
   {
-    txId: "0a123sb",
-    user: "stevebower",
-    date: "2022-11-02",
-    cost: "13.55",
-  },
-  {
-    txId: "01e4dsa",
-    user: "aberdohnny",
-    date: "2021-09-01",
-    cost: "43.95",
-  },
-  {
-    txId: "120s51a",
-    user: "wootzifer",
-    date: "2019-04-15",
-    cost: "24.20",
-  },
-  {
-    txId: "0315dsaa",
-    user: "jackdower",
-    date: "2022-04-01",
-    cost: "133.45",
+    txId: "Tuesday",
+    user: "Mampdui",
+    date: "2023-11-02",
+    cost: "240.00",
   },
 ];
 
@@ -291,20 +273,20 @@ export const mockBarData = [
   },
   {
     Day: "Mon, 11-20-23",
-    "Morning": 243.96,
+    "Morning": 252.80,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 243.96,
+    Total: 254.07,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 8.84,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Tue, 11-21-23",
-    "Morning": 230,
+    "Morning": 241.23,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 215,
+    Total: 243.96,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 15,
+    Usage: 1.23,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
@@ -434,7 +416,7 @@ export const mockLineData = [
       },
       {
         x: "Tues, 11/21/23",
-        y: 15,
+        y: 1.23,
       },
       {
         x: "Wed, 11/22/23",

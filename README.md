@@ -6,3 +6,4 @@ Star Trek leverages React, Material UI, Data Grid, and offers both Light and Dar
 Web App: https://electricity.mampudilabs.com/
 
 For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
+ test

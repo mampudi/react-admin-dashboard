@@ -1,15 +1,34 @@
 import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
 import { tokens } from "../theme";
-import { mockLineData as data } from "../data/mockData";
+import React, { useEffect, useState } from 'react';
+import { mockLineData } from "../data/mockData";
 
 const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
+  const [lineData, setLineData] = useState([]);
+
+    useEffect(() => {
+        mockLineData().then(fetchedData => {
+            setLineData(fetchedData);
+        }).catch(error => {
+            console.error('Failed to fetch line data:', error);
+        });
+    }, []);
+
+    
+
+    if (!lineData || lineData.length === 0) {
+      return <div>Loading...</div>;
+  }
+
+  console.log('Formatted data for Nivo Line:', JSON.stringify(lineData));
+
   return (
     <ResponsiveLine
-      data={data}
+      data={lineData}
       theme={{
         axis: {
           domain: {

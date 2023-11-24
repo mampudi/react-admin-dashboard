@@ -232,14 +232,32 @@ export const mockTransactions = [
   {
     txId: "Monday",
     user: "Mampudi",
-    date: "2023-1120",
+    date: "2023-11-20",
     cost: "243.96",
   },
   {
     txId: "Tuesday",
     user: "Mampdui",
-    date: "2023-11-02",
-    cost: "240.00",
+    date: "2023-11-21",
+    cost: "227.64",
+  },
+  {
+    txId: "Wednesday",
+    user: "Mampdui",
+    date: "2023-11-22",
+    cost: "210.76",
+  },
+  {
+    txId: "Thursday",
+    user: "Mampdui",
+    date: "2023-11-23",
+    cost: "191.64",
+  },
+  {
+    txId: "Friday",
+    user: "Mampdui",
+    date: "2023-11-24",
+    cost: "181.27",
   },
 ];
 
@@ -284,88 +302,124 @@ export const mockBarData = [
     Day: "Tue, 11-21-23",
     "Morning": 241.23,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 243.96,
+    Total: 227.64,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 1.23,
+    Usage: 13.59,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Wed, 11-22-23",
-    "Morning": 200,
+    "Morning": 227.64,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 185,
+    Total: 210.76,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 15,
+    Usage: 16.88,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Thu, 11-23-23",
-    "Morning": 175,
+    "Morning": 203.13,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 170,
+    Total: 191.64,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 15,
+    Usage: 11.49,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Fri, 11-24-23",
-    "Morning": 155,
+    "Morning": 191.64,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 150,
+    Total: 181.27,
     burgerColor: "hsl(326, 70%, 50%)",
-    Usage: 15,
+    Usage: 10.37,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Sat, 11-25-23",
-    "Morning": 135,
+    "Morning": 181.27,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 130,
+    Total: 166,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Sun, 11-26-23",
-    "Morning": 120,
+    "Morning": 166,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 105,
+    Total: 151,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Mon, 11-27-23",
-    "Morning": 100,
+    "Morning": 151,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 85,
+    Total: 136,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Tue, 11-28-23",
-    "Morning": 80,
+    "Morning": 121,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 65,
+    Total: 106,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
     Day: "Wed, 11-29-23",
-    "Morning": 60,
+    "Morning": 91,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 45,
+    Total: 76,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
   },
   {
-    Day: "Thurs, 12-30-23",
-    "Morning": 40,
+    Day: "Thurs, 11-30-23",
+    "Morning": 76,
     "hot dogColor": "hsl(257, 70%, 50%)",
-    Total: 35,
+    Total: 61,
+    burgerColor: "hsl(326, 70%, 50%)",
+    Usage: 15,
+    kebabColor: "hsl(110, 70%, 50%)",
+  },
+  {
+    Day: "Fri, 12-01-23",
+    "Morning": 61,
+    "hot dogColor": "hsl(257, 70%, 50%)",
+    Total: 46,
+    burgerColor: "hsl(326, 70%, 50%)",
+    Usage: 15,
+    kebabColor: "hsl(110, 70%, 50%)",
+  },
+  {
+    Day: "Sat, 12-02-23",
+    "Morning": 46,
+    "hot dogColor": "hsl(257, 70%, 50%)",
+    Total: 31,
+    burgerColor: "hsl(326, 70%, 50%)",
+    Usage: 15,
+    kebabColor: "hsl(110, 70%, 50%)",
+  },
+  {
+    Day: "Sun, 12-03-23",
+    "Morning": 31,
+    "hot dogColor": "hsl(257, 70%, 50%)",
+    Total: 16,
+    burgerColor: "hsl(326, 70%, 50%)",
+    Usage: 15,
+    kebabColor: "hsl(110, 70%, 50%)",
+  },
+  {
+    Day: "Mon, 12-04-23",
+    "Morning": 16,
+    "hot dogColor": "hsl(257, 70%, 50%)",
+    Total: 1,
     burgerColor: "hsl(326, 70%, 50%)",
     Usage: 15,
     kebabColor: "hsl(110, 70%, 50%)",
@@ -382,82 +436,52 @@ export const mockPieData = [
   {
     id: "Used",
     label: "Used",
-    value: 59.77,
+    value: 122.46,
     color: "hsl(162, 70%, 50%)",
   },
 ];
 
+async function fetchElectricityUsageTrendAnalysis() {
+  const subscriptionKey = '092e8bf645a147bfa3ce052fc51b6c5e'; // Replace with your actual subscription key
+
+  try {
+    const response = await fetch('https://dytelligence.azure-api.net/v1/ElectricityUsageTrendAnalysis', {
+      method: 'GET',
+      headers: {
+        'Ocp-Apim-Subscription-Key': subscriptionKey
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const rawData = await response.json();
+    const formattedData = rawData.map(item => ({
+      x: item.Date, // Assuming the API returns a Date field
+      y: item.Difference // Assuming the API returns a Difference field
+    }));
+
+    console.log(formattedData);
+    return formattedData; // Return the fetched and formatted data
+  } catch (error) {
+    console.error('There was a problem fetching the trend analysis data:', error);
+    throw error; // Rethrow the error to propagate it up
+  }
+}
 
 
-export const mockLineData = [
-  {
-    id: "Daily Usage",
-    color: tokens("dark").redAccent[300],
-    data: [
-      {
-        x: "start",
-        y: 0,
-      },
-      {
-        x: "Fri, 11/17/23",
-        y: 14.69,
-      },
-      {
-        x: "Sat, 11/18/23",
-        y: 18.25,
-      },
-      {
-        x: "Sun, 11/19/23",
-        y: 14.4,
-      },
-      {
-        x: "Mon, 11/20/23",
-        y: 8.84,
-      },
-      {
-        x: "Tues, 11/21/23",
-        y: 1.23,
-      },
-      {
-        x: "Wed, 11/22/23",
-        y: 15,
-      },
-      {
-        x: "Thurs, 11/23/23",
-        y: 15,
-      },
-      {
-        x: "Fri, 11/24/23",
-        y: 15,
-      },
-      {
-        x: "Sat, 11/25/23",
-        y: 15,
-      },
-      {
-        x: "Sun, 11/26/23",
-        y: 15,
-      },
-      {
-        x: "Mon, 11/27/23",
-        y: 15,
-      },
-      {
-        x: "Tues, 11/28/23",
-        y: 15,
-      },
-      {
-        x: "Wed, 11/29/23",
-        y: 15,
-      },
-      {
-        x: "Thurs, 11/30/23",
-        y: 15,
-      },
-    ],
-  },
 
-];
+export async function mockLineData() {
+  const fetchedData = await fetchElectricityUsageTrendAnalysis();
+  return [
+      {
+          id: "Daily Usage",
+          color: tokens("dark").redAccent[300],
+          data: fetchedData
+      },
+  ];
+}
 
 export const mockGeographyData = [
   {

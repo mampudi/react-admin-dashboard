@@ -151,7 +151,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                240.00
+                181.27
               </Typography>
             </Box>
             <Box>
@@ -225,7 +225,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Units vs Used
           </Typography>
           <Box
             display="flex"
@@ -239,9 +239,7 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 revenue generated
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
         </Box>
         <Box
@@ -271,7 +269,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
           >
-            Geography Based Traffic
+            Geography Based Access
           </Typography>
           <Box height="200px">
             <GeographyChart isDashboard={true} />
